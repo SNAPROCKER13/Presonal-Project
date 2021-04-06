@@ -1,0 +1,30 @@
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9090;
+  height: 100vh;
+  width: 100vw;
+}
+
+.register-card {
+  width: 700px;
+  height: fit-content;
+}
+
+.form-register {
+  text-align: center;
+}
+
+.register-body {
+  background-color: white;
+}
+
+.register-input {
+  display: block;
+}
+
+.register-photo {
+  margin-top: 2px;
+  margin-bottom: 25px;
+}

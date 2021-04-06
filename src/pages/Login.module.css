@@ -1,0 +1,25 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9090;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-card {
+  width: 700px;
+  height: fit-content;
+}
+
+.form-login {
+  text-align: center;
+}
+
+.login-body {
+  background-color: white;
+}
+
+.login-input {
+  display: block;
+}
