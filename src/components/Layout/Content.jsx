@@ -5,7 +5,10 @@ const { Content: ContentAntD } = Layout
 
 function Content({ children, style, className }) {
   return (
-    <ContentAntD className={className} style={{ height: '100vh', ...style }}>
+    <ContentAntD
+      className={className}
+      style={{ minHeight: '100vh', backgroundColor: '#FF9090', ...style }}
+    >
       {children}
     </ContentAntD>
   )

@@ -1,3 +1,10 @@
 .song-list-page {
-  background-color: brown !important;
+  background-color: FF9090;
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
 }
