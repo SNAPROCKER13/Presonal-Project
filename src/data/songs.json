@@ -5,7 +5,7 @@
     "artist": "SNAPROCKER",
     "songURL": "/my-song/song1.mp3",
     "artworkURL": "https://i.ibb.co/xSs5QYr/Artwork-Song1.jpg",
-    "description": "kuy"
+    "description": "Hello world!"
   },
   {
     "id": "1617783062980",
@@ -13,22 +13,6 @@
     "artist": "SNAPROCKER",
     "songURL": "/my-song/song2.mp3",
     "artworkURL": "https://i.ibb.co/MgQq9s2/Artwork-Song2.jpg",
-    "description": "kuy"
-  },
-  {
-    "id": "1617783062981",
-    "name": "อยากลืมแต่ลืมไม่ลง demo",
-    "artist": "SNAPROCKER",
-    "songURL": "/my-song/song3.mp3",
-    "artworkURL": "https://i.ibb.co/MgQq9s2/Artwork-Song2.jpg",
-    "description": "kuy"
-  },
-  {
-    "id": "1617783062982",
-    "name": "อยากลืมแต่ลืมไม่ลง dem",
-    "artist": "SNAPROCKER",
-    "songURL": "/my-song/song4.mp3",
-    "artworkURL": "https://i.ibb.co/MgQq9s2/Artwork-Song2.jpg",
-    "description": "kuy"
+    "description": "Hello world!"
   }
 ]

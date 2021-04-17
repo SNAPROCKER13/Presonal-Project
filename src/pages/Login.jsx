@@ -70,7 +70,7 @@ function Login({}) {
                     </Button>
                   </Form.Item>
                   <Button type="link" danger style={{ color: 'red' }}>
-                    Sign-Up
+                    <a href="/register"> Sign-Up</a>
                   </Button>
                 </Form>
               </div>

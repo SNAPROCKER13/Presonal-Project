@@ -81,3 +81,27 @@
   align-items: center;
   justify-content: center;
 }
+
+.drag-and-drop {
+  background-color: #ff9090 !important;
+}
+
+.title-add {
+  background-color: #ff9090 !important;
+}
+
+.artist-add {
+  background-color: #ff9090 !important;
+}
+
+.title-edit {
+  background-color: #ff9090 !important;
+}
+
+.artist-edit {
+  background-color: #ff9090 !important;
+}
+
+TextArea {
+  background-color: #ff9090 !important;
+}

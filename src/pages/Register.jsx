@@ -94,7 +94,8 @@ function Register() {
                       label="Name"
                       rules={[
                         {
-                          required: true
+                          required: true,
+                          message: 'Please input your name!'
                         }
                       ]}
                     >
