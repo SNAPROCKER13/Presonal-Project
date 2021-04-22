@@ -4,7 +4,7 @@ import { Card, Image, Button, Row, Typography, Modal, Input } from 'antd'
 const { Text } = Typography
 const { TextArea } = Input
 
-function SongCard({ song, setSong, ...props }) {
+function SongCard({ song, setSong, songURL, artworkURL, id, ...props }) {
   const [isModalVisibleEdit, setIsModalVisibleEdit] = useState(false)
   const [isModalVisibleDelete, setIsModalVisibleDelete] = useState(false)
   const [editTitle, setEditTitle] = useState('')
@@ -21,11 +21,17 @@ function SongCard({ song, setSong, ...props }) {
     const artist = editArtist
     const description = editDescription
 
-    song = {
+    const editSong = {
       name,
       artist,
       description
     }
+
+    const finalEditSong = { ...song, ...editSong }
+
+    setSong(finalEditSong)
+
+    console.log(song)
   }
 
   const handleCancelEdit = () => {

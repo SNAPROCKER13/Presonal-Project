@@ -233,7 +233,9 @@ function SongList() {
                 song={song}
                 key={song.id}
                 setSong={setSongs}
-                songs={songs}
+                songURL={song.songURL}
+                artworkURL={song.artworkURL}
+                id={song.id}
               />
             )
           })}
